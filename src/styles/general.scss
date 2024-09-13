@@ -1,0 +1,9 @@
+@use '../styles/partials/mixin' as *;
+@use '../styles/partials/variables' as *;
+@use '../styles/partials/reset' as *;
+
+
+body {
+    font-family: "Open Sans";
+    background-color: $bg-primary;
+}

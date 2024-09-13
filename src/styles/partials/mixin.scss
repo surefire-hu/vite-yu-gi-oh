@@ -1,0 +1,13 @@
+@mixin container-size {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+@mixin uppercase {
+    text-transform: uppercase;
+}
