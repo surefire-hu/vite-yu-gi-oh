@@ -14,7 +14,6 @@ export const store = reactive ({
             this.archetypes = response.data.map(item => item.archetype_name);
             this.loading = false;
         } catch (error) {
-            console.error('Non abbiamo trovato un .....:', error);
             this.loading = false;
         }
     },
@@ -30,7 +29,6 @@ export const store = reactive ({
             this.cards = response.data.data;
             this.loading = false;
         } catch (error) {
-            console.error('Non abbiamo trovato un .....:', error);
             this.cards = [];
             this.loading = false;
         }
