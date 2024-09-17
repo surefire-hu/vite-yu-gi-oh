@@ -6,7 +6,7 @@
 
 <template>
     <div class="logo">
-        <img src="/public/yu-gi-oh.jpeg" alt="logo Yu-gi-oh">
+        <img src="/yu-gi-oh.jpeg" alt="logo Yu-gi-oh">
     </div>
 </template>
 
